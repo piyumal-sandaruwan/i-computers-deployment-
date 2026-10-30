@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@theme{
+  --color-primary: #ffffff; 
+  --color-secondary: black;
+  --color-accent: #000000;
+  /* #20025c */
+
+}
+
+/* Target the entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Set the width for vertical scrollbars */
+}
+
+/* Target the track (the background area) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Target the thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+/* Add a hover effect to the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
